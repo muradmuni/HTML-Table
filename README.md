@@ -72,3 +72,6 @@
 
 </body>
 </html>
+
+#Output:
+![html-table](https://user-images.githubusercontent.com/24538019/35902120-24fe6adc-0c04-11e8-8f60-3e79b664fe22.PNG)
