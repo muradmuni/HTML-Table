@@ -2,63 +2,73 @@
 <html>
 <head>
 	<title></title>
-	<style type="text/css">
-	.container{
-			background-color: yellow;
-			width: 70%;
-			margin: auto;
-	}
-	p{
-		margin: 0;
-		padding: 10px;
-	}
-	*{
-		color: white;
-	}
-		.div-before,.div-after{
-			background-color: #663399;
-		}
-		.div-1{
-			background-color: black;
-			padding: 20px;
-		}
-		.div-1a{
-			background-color: red;
-		}
-		.div-1b{
-			background-color: green;
-		}
-		.div-1c{
-			background-color: blue;
-		}
-		
-	</style>
 </head>
 <body>
-	<div class="container">
-		<div class="div-before">
-			<p>id=div-before</p>
-		</div>
-		<div class="div-1">
-			<p>id=div-1</p>
-			<div class="div-1a">
-				<p>id=div-1a</p>
-				<p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive. </p>
-			</div>
-			<div class="div-1b">
-				<p>id=div-1b</p>
-				<p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive. </p>
-			</div>
-			<div class="div-1c">
-				<p>id=div-1c</p>
-			</div>
-		</div>
-		<div class="div-after">
-			<p>id=div-after</p>
-		</div>
-	</div>
+
+	<table border="1px" width="70%" style="text-align: center;border-collapse: collapse;">
+		<thead>
+			<tr>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Aver</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>01</td>
+				<td>Murad</td>
+				<td rowspan="2">20</td>
+				<td>5612</td>
+			</th>
+			<tr>
+				<td>02</td>
+				<td>Ahmed</td>
+				
+				<td>125463</td>
+				<tr>
+				
+				<td colspan="2">Total</td>
+				<td>50</td>
+				<td >225463</td>
+			</th>
+		</tbody>
+	</table>
+
+	<h3>This is Class Practice.</h3>
+		<table border="1" style="width: 70%;text-align: center;border-collapse: collapse;">
+		<thead>
+		<tr>
+			<td>hello</td>
+			<td>hello</td>
+			<td>hello</td>
+			<td>hello</td>
+		</tr></thead>
+
+	<tbody>
+		<tr>
+			<td rowspan="5">can you do this?</td>
+
+			<td colspan="3">you can span across</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">its like a puzzle</td>
+			<td rowspan="4">Over here</td>
+		</tr>
+
+		<tr>
+			<td rowspan="3">This way.</td>
+			<td>That way</td>
+		</tr>
+
+		<tr>
+			<td rowspan="3">where am I?</td>
+		</tr>
+		<tr></tr>
+
+		</tbody>
+		</table>
+
 </body>
 </html>
-
-
-![gyfsdjjks](https://user-images.githubusercontent.com/24538019/35841934-24dee01c-0b29-11e8-9fd0-dc2f4ce2da05.PNG)
